@@ -1,0 +1,19 @@
+
+myNumber = int(input('guess the number I am thinking of: '))
+if(myNumber == 33) :
+  print('you guessed it!')
+else :
+  if(myNumber < 33) :
+    print('too low my friend')
+  else :
+    if(myNumber > 33):
+      print('now you\'re too high')
+
+score1 = input('enter score 1: ')
+score2 = input('enter score 2: ')
+score3 = input('enter score 3: ')
+
+total = (int(score1) + int(score2) + int(score3))
+average = total/3
+print('total is:', total)
+print('the average is:', average)
